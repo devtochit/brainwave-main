@@ -1,0 +1,536 @@
+body {
+  background-color: #0a0a0a;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("/fonts/Orbitron/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2")
+    format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2") format("truetype");
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  font-family: "Orbitron";
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+h2 span {
+  font-weight: 900;
+}
+
+h4 {
+  color: white;
+  font-size: 18px !important;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.66);
+}
+
+p b {
+  color: white;
+  font-weight: 500;
+}
+
+.wrapper {
+  background-color: #171717;
+  padding: 36px;
+  width: calc((100% / 3) - 21px);
+  font-size: 15px;
+  line-height: 22px;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.wrapper-colored {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.section-narrow {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.btn-dapp {
+  background-image: url("/img/btnbg.png");
+  background-size: cover;
+  padding: 16px 36px;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 400;
+  background-color: #940bff;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-dapp-small {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.btn-dapp img {
+  position: relative;
+  top: 4px;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+.top-nav {
+  width: 100%;
+  padding: 40px 32px 32px;
+  margin-bottom: 360px;
+}
+
+.top-nav-links {
+  float: right;
+}
+
+.logo {
+  float: left;
+  height: 120px;
+  position: absolute;
+  left: 24px;
+  top: 32px;
+}
+
+.top-nav a {
+  display: inline-block;
+  margin-left: 48px;
+}
+
+#homeimg {
+  position: relative;
+  top: 5px;
+}
+
+.intro {
+  text-align: center;
+  max-width: 860px;
+  margin-bottom: 128px;
+}
+
+.intro p {
+  padding: 24px 0 36px;
+}
+
+.wrapper-mid {
+  width: calc(100% / 3);
+  margin: 0 16px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto 48px;
+}
+
+footer img {
+  display: inline-block;
+  margin: 48px 4px 16px;
+}
+
+footer p {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.shapethefuture {
+  background-color: #171717;
+  text-align: center;
+  height: 720px;
+  border-radius: 12px;
+}
+
+.shapethefuture h2 {
+  margin-bottom: 24px;
+}
+
+.shapethefuture img {
+  border-radius: 12px 12px 0 0;
+}
+
+.shapethefuture .content {
+  position: relative;
+  top: -160px;
+}
+
+.hidden {
+  display: none;
+}
+
+.revolutionaryforce {
+  background-image: url(/img/weusegradient.png);
+  width: 830px;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 37px;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  margin-top: 24px;
+}
+
+.limitlesspossibilities {
+  display: inline-block;
+  width: 428px;
+  margin-left: 16px;
+  height: 100%;
+  position: relative;
+}
+
+.limitlesspossibilities h4 {
+  margin-bottom: 12px;
+}
+
+.text-med {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.problemandsolution {
+  padding: 96px 0;
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+.howitworks .wrapper {
+  position: relative;
+}
+
+.howitworks img {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 32px;
+}
+
+.problemandsolution {
+  background-image: url("/img/vibrantbg.png");
+  background-size: cover;
+}
+
+.solutiontotheproblem h2 {
+  width: 40%;
+  margin-right: 10%;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  top: -24px;
+}
+
+.solutiontotheproblem p {
+  width: 49%;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+#miningvideo {
+  width: 405px;
+  display: inline-block;
+}
+
+#miningvideowrapper {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.gradient-text {
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #da8cff, #8000ff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.miningisfarfromideal {
+  background-color: #171717;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 710px;
+  margin-bottom: 96px;
+}
+
+.miningisfarfromideal .content {
+  display: inline-block;
+  width: 700px;
+  text-align: center;
+  margin: 80px 84px;
+  vertical-align: top;
+}
+
+.miningisfarfromideal h1 {
+  margin-bottom: 36px;
+}
+
+.miningisfarfromideal a {
+  margin-top: 48px;
+}
+
+.objectives {
+  margin-bottom: 96px;
+  margin-top: 72px;
+}
+
+.objectives h4 {
+  margin: 20px 0px 12px;
+}
+
+.objectives h2 {
+  margin-bottom: 32px;
+  margin-top: 48px;
+}
+
+.harnessing {
+  background-image: url(/img/weusegradient.png);
+  background-size: cover;
+  padding: 48px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.hashaitoken {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #171717;
+}
+
+.fadein {
+  opacity: 1;
+  margin-top: 100px;
+}
+
+.fade {
+  opacity: 1;
+}
+
+.logos-carousel p {
+  margin-top: 48px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hashaitoken .content {
+  padding: 0 48px 40px 48px;
+}
+
+.hashaitoken .content h4 {
+  margin-bottom: 10px;
+}
+
+.hashaitoken .content {
+  font-size: 15px;
+}
+
+.weuseai .left {
+  background-image: url("/img/girlbg.png");
+  background-size: cover;
+}
+
+.weuseai h2 {
+  text-align: left;
+  width: 80%;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.weuseai .left {
+  display: inline-block;
+  width: 627px;
+  margin-right: 20px;
+  padding: 40px;
+  height: 633px;
+  vertical-align: top;
+  position: relative;
+  border-radius: 12px;
+}
+
+.weuseai .right {
+  display: inline-block;
+  width: 627px;
+}
+
+#cpuvideo {
+  width: 100%;
+  object-fit: cover;
+  height: 900px;
+  position: absolute;
+  top: -150px;
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+  z-index: -2;
+}
+
+#linearcover {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: -150px;
+  background: linear-gradient(rgba(255, 255, 255, 0) 40%, #0a0a0a);
+  z-index: -1;
+}
+
+a.logo-containter {
+  margin-left: 0;
+}
+
+.futureplans-left {
+  width: 632px;
+  float: left;
+}
+
+.futureplans-right {
+  width: 632px;
+  float: right;
+}
+
+.futureplans-left {
+  background-image: url("/img/planleft.png");
+}
+
+.futureplans-right {
+  background-image: url("/img/planright.png");
+}
+
+.topbg {
+  background-image: url("/img/roadmapbg.png");
+  width: 100%;
+  height: 626px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+.topbg-overlay {
+  background: linear-gradient(rgba(255, 255, 255, 0), #0a0a0a);
+  width: 100%;
+  height: 100%;
+}
+
+#roadmap .top-nav {
+  margin-bottom: 0px;
+}
+
+#roadmap .intro {
+  margin-bottom: 24px;
+}
+
+.map-step {
+  position: relative;
+  height: 164px;
+  margin: 9px 0px;
+  width: 400px;
+  text-align: left;
+}
+
+.map-step h4 {
+  position: absolute;
+  bottom: 32px;
+  left: 36px;
+  max-width: 80%;
+}
+
+.road-steps {
+  text-align: center;
+  position: relative;
+}
+
+.step-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 144px;
+}
+
+.futureplans h2 {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.futureplans h4 {
+  margin-bottom: 12px;
+}
+
+#leftcurve {
+  position: absolute;
+  left: 0px;
+  top: 280px;
+}
+
+#rightcurve {
+  position: absolute;
+  right: 0px;
+  top: 90px;
+}
+
+.map-step-mid {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.container-map {
+  background-image: url(/img/stepsbg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#tobe-step {
+  background: linear-gradient(45deg, #555, #0a0a0a 70%);
+}
+
+#tobe-step h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+#tobe-gradient {
+  background-color: #0a0a0a;
+  width: 396px;
+  height: 160px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 10px;
+}
