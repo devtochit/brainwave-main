@@ -563,8 +563,8 @@ a.logo-containter {
     
     
     h1, h2, h3 {
-        font-size: 26px;
-        line-height: 32px
+        font-size: 26px !important;
+        line-height: 32px !important
     }
     .wrapper {
         width: 100%;
@@ -587,8 +587,8 @@ a.logo-containter {
     }
     
     body {
-        font-size: 17px;
-        line-height: 24px;
+        font-size: 17px !important;
+        line-height: 24px !important;
     }
     
     .revolutionaryforce {
