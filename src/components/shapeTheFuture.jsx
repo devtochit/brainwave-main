@@ -6,7 +6,7 @@ const ShapeTheFuture = () => {
   return (
     <div className="section-narrow">
       <div className="shapethefuture fadein">
-        <img src={roadmap2} />
+        <img src={"/img/graphiccard.png"} />
 
         <div className="content">
           <h2>
@@ -21,7 +21,7 @@ const ShapeTheFuture = () => {
         </div>
       </div>
 
-      <div className="container-revolutionaryforce fade">
+      <div className="container-revolutionaryforce mt-5 mb-5 fade">
         <p className="revolutionaryforce">
           Hash AI and its AI-driven mining facility, represent a
           <b>revolutionary force</b> in the cryptocurrency landscape. The
