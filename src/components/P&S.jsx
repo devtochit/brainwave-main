@@ -44,7 +44,6 @@ const ProblemNDSolutions = () => {
               href="https://dapp.hashai.cc"
               target="_blank"
               className="btn-dapp"
-              href="#"
             >
               Try Our DApp <img src="/img/dapplaunch.svg" />
             </a>
