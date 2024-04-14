@@ -1,12 +1,11 @@
 import React from "react";
 import { roadmap1, roadmap2 } from "../assets";
 
-
 const ShapeTheFuture = () => {
   return (
     <div className="section-narrow">
       <div className="shapethefuture fadein">
-        <img src={"/img/graphiccard.png"} />
+        <img src={"/fix.jpg"} />
 
         <div className="content">
           <h2>

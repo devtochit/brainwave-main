@@ -43,7 +43,7 @@ const Hero = () => {
             rig supplies, rig hosting and GPU sales, and a mining facility with
             over 500 top GPUs.
           </p>
-          <Button href="/pricing" white>
+          <Button href="/pricing" white >
             Lunch Dapp
           </Button>
         </div>
