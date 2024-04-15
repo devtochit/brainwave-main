@@ -49,7 +49,7 @@ const Collaboration = () => {
               </div>
             </div>
 
-            <ul>
+            {/* <ul>
               {collabApps.map((app, index) => (
                 <li
                   key={app.id}
@@ -72,7 +72,7 @@ const Collaboration = () => {
                   </div>
                 </li>
               ))}
-            </ul>
+            </ul> */}
 
             <LeftCurve />
             <RightCurve />
