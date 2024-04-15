@@ -41,8 +41,10 @@ const Hero = () => {
            Analyze historical data across chains to detect emerging market trends and predict future market movements.
             Stay ahead of the curve with real-time insights on top trending tokens and make informed decisions with the ability to query any token across major chains
           </p>
+
           <Button href="/pricing" white>
             Launch Bot
+
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
