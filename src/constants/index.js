@@ -244,16 +244,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "AI-Powered Analysis",
+    text: " Gain valuable insights with advanced AI algorithms that analyze historical data to detect popular market trends and predict market direction.",
     backgroundUrl: "/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Top Trending Tokens",
+    text: "Stay on top of the market with live updates on the trending tokens across several chains like Solana, Ethereum, and BNB chains.",
     backgroundUrl: "/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,8 +261,8 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Cross-Chain Queries",
+    text: "Seamlessly query any token on Solana, Ethereum, or BNB chains for in-depth information and data-driven decision-making.",
     backgroundUrl: "/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -278,8 +278,8 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Type-to-Buy Tokens",
+    text: "Effortlessly buy tokens across chains by simply typing to the bot. Execute transactions with ease through natural language queries, making trading more accessible and user-friendly.",
     backgroundUrl: "/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,

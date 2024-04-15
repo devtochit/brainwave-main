@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Where &nbsp;Artificial Intelligence &nbsp; Meets Mining Excellence{" "}
+          AI and Crypto: &nbsp;The Synergy of Smart Finance &nbsp;{" "}
             {` `}
-            <span className="inline-block relative">
+            {/* <span className="inline-block relative">
               name{" "}
               <img
                 src={curve}
@@ -34,17 +34,17 @@ const Hero = () => {
                 height={28}
                 alt="Curve"
               />
-            </span>
+            </span> */}
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            With vast Crypto and Web3 experience, the Hash AI team has
-            established the infrastructure, partnerships, and distribution
-            network for a successful Crypto mining company. This involves mining
-            rig supplies, rig hosting and GPU sales, and a mining facility with
-            over 500 top GPUs.
+          Experience the future of cryptocurrency trading with our cutting-edge AI bot.
+           Analyze historical data across chains to detect emerging market trends and predict future market movements.
+            Stay ahead of the curve with real-time insights on top trending tokens and make informed decisions with the ability to query any token across major chains
           </p>
-          <Button href="/pricing" white >
-            Lunch Dapp
+
+          <Button href="/pricing" white>
+            Launch Bot
+
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
