@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const ProblemNDSolutions = () => {
   return (
@@ -21,8 +22,8 @@ const ProblemNDSolutions = () => {
 
           <div className="content z-50">
             <h1>
-              Traditional Mining Is
-              <span className="gradient-text">Far From Ideal</span> and Has Many
+              Traditional Mining Is { ""}
+              <span className=" ">Far From Ideal</span> and Has Many
               Problems
             </h1>
 
@@ -40,13 +41,14 @@ const ProblemNDSolutions = () => {
               as profitable for periods as short as an hour.
             </p>
 
-            <a
+            {/* <a
               href="https://dapp.hashai.cc"
               target="_blank"
               className="btn-dapp"
             >
               Try Our DApp <img src="/img/dapplaunch.svg" />
-            </a>
+            </a> */}
+            <Button className=" mt-10">Try Our Bot</Button>
           </div>
         </div>
         <div className="solutiontotheproblem section-narrow fadein">
