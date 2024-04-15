@@ -241,6 +241,34 @@ export const pricing = [
   },
 ];
 
+export const futurebenefits = [
+  {
+    id: "0",
+    title: "AI-Powered Analysis",
+    text: " Gain valuable insights with advanced AI algorithms that analyze historical data to detect popular market trends and predict market direction.",
+    backgroundUrl: "/card-1.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "1",
+    title: "Top Trending Tokens",
+    text: "Stay on top of the market with live updates on the trending tokens across several chains like Solana, Ethereum, and BNB chains.",
+    backgroundUrl: "/card-2.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Cross-Chain Queries",
+    text: "Seamlessly query any token on Solana, Ethereum, or BNB chains for in-depth information and data-driven decision-making.",
+    backgroundUrl: "/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+  },
+ 
+];
 export const benefits = [
   {
     id: "0",

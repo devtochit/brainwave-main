@@ -9,13 +9,16 @@ import Services from "./components/Services";
 import ProblemNDSolutions from "./components/P&S";
 import ShapeTheFuture from "./components/shapeTheFuture";
 import Roadmap from "./components/Roadmap";
+import FutureFeatures from "./components/futureFeature";
+
 const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
-        {/* <Benefits /> */}
+        <Benefits />
+        <FutureFeatures />
         <Collaboration />
         <ProblemNDSolutions />
         <ShapeTheFuture />
