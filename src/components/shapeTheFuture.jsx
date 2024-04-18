@@ -9,12 +9,12 @@ const ShapeTheFuture = () => {
 
         <div className="content">
           <h2>
-            Together, We <span className="gradient-text">Shape the Future</span>
+          Unlocking Opportunities: <span className="gradient-text">Empower Your Crypto Journey</span>
             <br />
-            Of Decentralized Finance
+            Across Multiple Chains
           </h2>
           <a href="https://dapp.hashai.cc" target="_blank" className="btn-dapp">
-            Check Our DApp
+            Launch our Bot
             <img src="./img/dapplaunch.svg" />
           </a>
         </div>
@@ -22,19 +22,14 @@ const ShapeTheFuture = () => {
 
       <div className="container-revolutionaryforce mt-5 mb-5 fade">
         <p className="revolutionaryforce">
-          Hash AI and its AI-driven mining facility, represent a
-          <b>revolutionary force</b> in the cryptocurrency landscape. The
-          integration of AI-optimized mining, sustainability practices, and
-          community engagement positions Hash AI as a beacon of innovation and
-          efficiency.
+         Our bot, powered by AI, represents a <b>groundbreaking advance</b> in the cryptocurrency world. By bringing together AI-driven analysis, seamless cross-chain trading, and real-time trend monitoring, our bot sets the standard for innovation and precision.
         </p>
 
         <div className="wrapper limitlesspossibilities">
-          <h4>Limitless Possibilities of Mining</h4>
-          <p className="text-med">
-            Join us at Hash AI, where the power of AI meets the limitless
-            possibilities of cryptocurrency mining.
-          </p>
+        <h4>Unlock Boundless Crypto Insights</h4>
+        <p className="text-med">
+          Experience our bots fusion of AI and blockchain, opening the door to boundless opportunities in analysis and trading.
+        </p>
         </div>
       </div>
     </div>
