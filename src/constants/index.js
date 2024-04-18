@@ -6,10 +6,10 @@ import {
   benefitImage2,
   chromecast,
   disc02,
-  discord,
+  bnb,
   discordBlack,
   facebook,
-  figma,
+  solana,
   file02,
   framer,
   homeSmile,
@@ -17,7 +17,7 @@ import {
   notification2,
   notification3,
   notification4,
-  notion,
+  ethereum,
   photoshop,
   plusSquare,
   protopie,
@@ -128,81 +128,86 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Leverage easy and instant execution for effortless trading across chains. It's the ideal choice for traders seeking efficiency and precision in their transactions.";
+
+  export const collabText2 =
+  "Unlock insights from multiple chains with ease. Chat with the bot to analyze market trends and make informed decisions quickly and conveniently.";
+
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Seamless Trading",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Easy Analysis",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Exclusive Informtion",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "Ethereum",
+    icon: ethereum,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Solana",
+    icon: solana,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "BNB",
+    icon: bnb,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
-    width: 34,
-    height: 35,
+    title: "Ethereum",
+    icon: ethereum,
+    width: 26,
+    height: 36,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Solana",
+    icon: solana,
     width: 34,
-    height: 34,
+    height: 36,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
+    title: "BNB",
+    icon: bnb,
+    width: 36,
+    height: 28,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "Ethereum",
+    icon: ethereum,
     width: 26,
-    height: 34,
+    height: 36,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
+    title: "Solana",
+    icon: solana,
+    width: 34,
+    height: 36,
   },
+  
 ];
 
 export const pricing = [
@@ -244,16 +249,16 @@ export const pricing = [
 export const futurebenefits = [
   {
     id: "0",
-    title: "AI-Powered Analysis",
-    text: " Gain valuable insights with advanced AI algorithms that analyze historical data to detect popular market trends and predict market direction.",
+    title: "Voice-Controlled Interaction",
+    text: "Communicate with the bot using voice commands for a hands-free, convenient experience. Effortlessly execute trades and queries with just your voice.",
     backgroundUrl: "/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Top Trending Tokens",
-    text: "Stay on top of the market with live updates on the trending tokens across several chains like Solana, Ethereum, and BNB chains.",
+    title: "Cross-Chain Token Swaps",
+    text: "Effortlessly swap tokens across different chains directly without converting to a native currency. For instance, trade an ERC20 token for an SPL token seamlessly.",
     backgroundUrl: "/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,8 +266,8 @@ export const futurebenefits = [
   },
   {
     id: "2",
-    title: "Cross-Chain Queries",
-    text: "Seamlessly query any token on Solana, Ethereum, or BNB chains for in-depth information and data-driven decision-making.",
+    title: "Direct Token-to-Fiat Swaps",
+    text: " Convert any token on any chain directly to fiat currency and transfer it straight to your bank account. Enjoy seamless, hassle-free transactions with your assets.",
     backgroundUrl: "/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,

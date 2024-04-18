@@ -27,10 +27,10 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
+import bnb from "./collaboration/bnb.png";
+import solana from "./collaboration/solana.png";
 import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
+import ethereum from "./collaboration/ethereum.png";
 import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
@@ -102,10 +102,10 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
+  bnb,
+  solana,
   framer,
-  notion,
+  ethereum,
   photoshop,
   protopie,
   raindrop,

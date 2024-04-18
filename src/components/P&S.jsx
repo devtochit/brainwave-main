@@ -22,23 +22,16 @@ const ProblemNDSolutions = () => {
 
           <div className="content z-50">
             <h1>
-              Traditional Mining Is { ""}
-              <span className=" ">Far From Ideal</span> and Has Many
-              Problems
+            Cross-Chain Trading Often Involves{ ""}
+              <span className=" "> Unnecessary Complexity</span>  
             </h1>
 
             <p>
-              Traditional mining operations typically focus on one coin with the
-              best average long-term return for an extended period of time.
-              Changing mining client, pool, wallet details, and tweaking GPU
-              overclocks for optimal mining, generally require
-              <b>complex manual processes</b>.
+            Trading across multiple chains often requires juggling multiple platforms and complex manual processes. Our bot simplifies this by providing a unified interface to trade and analyze market trends seamlessly.
             </p>
             <br />
             <p>
-              So many <b>opportunities are missed</b> by mining only long-term
-              profitable coins, disregarding short-term ones that can be twice
-              as profitable for periods as short as an hour.
+              So many <b>opportunities are missed</b> when analyzing from disparate sources. Our bot centralizes all information in one spot, preventing losses and enabling you to seize every opportunity.
             </p>
 
             {/* <a
@@ -52,11 +45,9 @@ const ProblemNDSolutions = () => {
           </div>
         </div>
         <div className="solutiontotheproblem section-narrow fadein">
-          <h2>Hash AI Is a Solution to the Problem</h2>
+          <h2>Kaitana Is the Solution to the Problem</h2>
           <p>
-            Our advanced AI algorithms <b>provide significant benefits</b> in
-            terms of ROI (return on investment) for both clients and token
-            holders, as well as helping businesses and individuals achieve their
+            Our advanced AI enable you to efficiently analyze and purchase tokens across chains, helping businesses and individuals achieve their
             financial goals sooner and far more efficiently.
           </p>
         </div>
@@ -67,11 +58,11 @@ const ProblemNDSolutions = () => {
             <img src="/img/analyse.svg" />
           </div>
           <div className="wrapper wrapper-mid">
-            <h4>Assess coin profitability</h4>
+            <h4>Checks for popular market trends</h4>
             <img src="/img/coin.svg" />
           </div>
           <div className="wrapper">
-            <h4>Adjust what coin is mined</h4>
+            <h4>Allows you to purchase by typing</h4>
             <img src="/img/target.svg" />
           </div>
         </div>
