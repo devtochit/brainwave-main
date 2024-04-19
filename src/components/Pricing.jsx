@@ -27,10 +27,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <Heading
-          tag="Get started with Kaitana"
-          title="Pay once, use forever"
-        />
+        <Heading tag="We are just getting started" title="Roadmap" />
 
         <div className="relative">
           <PricingList />
@@ -38,14 +35,14 @@ const Pricing = () => {
           <RightLine />
         </div>
 
-        <div className="flex justify-center mt-10">
+        {/* <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="/pricing"
           >
             See the full details
           </a>
-        </div>
+        </div> */}
       </div>
     </Section>
   );
