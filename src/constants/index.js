@@ -130,9 +130,8 @@ export const roadmap = [
 export const collabText =
   "Leverage easy and instant execution for effortless trading across chains. It's the ideal choice for traders seeking efficiency and precision in their transactions.";
 
-  export const collabText2 =
+export const collabText2 =
   "Unlock insights from multiple chains with ease. Chat with the bot to analyze market trends and make informed decisions quickly and conveniently.";
-
 
 export const collabContent = [
   {
@@ -207,13 +206,12 @@ export const collabApps = [
     width: 34,
     height: 36,
   },
-  
 ];
 
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
+    title: "future",
     description: "Inception and Development",
     price: "0",
     features: [
@@ -224,7 +222,7 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Premium",
+    title: "future",
     description: "Launch and Initial Adoption",
     price: "9.99",
     features: [
@@ -235,7 +233,7 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Enterprise",
+    title: "future",
     description: "Expansion and Optimization",
     price: null,
     features: [
@@ -272,7 +270,6 @@ export const futurebenefits = [
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
- 
 ];
 export const benefits = [
   {

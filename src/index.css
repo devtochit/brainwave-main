@@ -87,3 +87,365 @@
 .-rotate-360 {
   @apply rotate-[-360deg];
 }
+
+
+@media (width <= 480px) {
+    .section-narrow {
+        width: calc(100% - 24px);
+    }
+    
+    .hidden-mobile {
+        display: none !important;
+    }
+    
+    .weuseai .left {
+        width: 100%;
+        background-position: right;
+        height: 420px;
+        padding: 24px;
+        margin-right: 0;
+    }
+    
+    .weuseai .right {
+        width: 100%;
+    }
+
+    .btn-dapp {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+    
+    
+    h1, h2, h3 {
+        font-size: 26px;
+        line-height: 32px
+    }
+    .wrapper {
+        width: 100%;
+        margin: 4px auto;
+        padding: 28px 24px
+    }
+    
+    .revolutionaryforce {
+        width: 100%;
+        margin: 6px auto;
+        top: 0px;
+    }
+    
+    .hidden-desktop {
+        display: block;
+    }
+    
+    h4 {
+        font-size: 17px !important;
+    }
+    
+    body {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    
+    .revolutionaryforce {
+        padding: 28px 24px;
+        top: 0px;
+        background-size: 150% 100%;
+    }
+    
+    .shapethefuture .content {
+        top: -20px
+    }
+    
+    .shapethefuture {
+        height: auto;
+        margin: 6px auto;
+    }
+    
+    .logos-carousel p {
+        margin-top: 16px;
+        text-align: center;
+        font-size: 15px
+    }
+    
+    .problemandsolution {
+        padding: 32px 0;
+    }
+    
+    .hashaitoken {
+        margin: 0 auto;
+    }
+    
+    .hashaitoken .content {
+        padding: 0 24px 24px 24px;
+    }
+    
+    .mlogo {
+        width: 112px;
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        left: 4px;
+    }
+    
+    .intro {
+        margin-bottom: 32px
+    }
+    
+    .intro h1 {
+        margin-top: 220px
+    }
+    
+    .intro p {
+        
+        padding: 20px 0 24px;
+    }
+    
+    .intro .btn-dapp {
+        width: 100%;
+    }
+    
+    #cpuvideo {
+        max-width: calc(100% + 40px);
+        width: calc(100% + 40px);
+        height: 460px;
+        top: -100px;
+        left: -40px
+    }
+    
+    #linearcover {
+        height: 460px;
+        top: -100px;
+    }
+    
+    .weuseai h2 {
+        bottom: 24px;
+        left: 24px;
+    }
+    
+    .weuseai .left {
+        margin-bottom: 6px;
+    }
+    
+    .harnessing {
+        padding: 24px;
+        margin: 6px 0 12px;;
+    }
+    
+    .solutiontotheproblem h2 {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    .solutiontotheproblem p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 24px
+    }
+    
+    .howitworks h4 {
+        font-size: 16px !important;
+    }
+    
+    #miningvideo {
+        width: 100%;
+        display: block;
+    }
+    
+    .miningisfarfromideal {
+        height: auto;
+        font-size: 15px;
+        margin-bottom: 32px;
+    }
+    
+    .miningisfarfromideal .content {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding: 24px;
+        vertical-align: top;
+    }
+    
+    .miningisfarfromideal h1 {
+        text-align: left;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 24px;
+        margin-top: -217px;
+        z-index: 2;
+        position: relative;
+    }
+    
+    .miningisfarfromideal .btn-dapp{
+        width: 100%;
+        margin-top: 24px;
+    }
+    
+    #miningvideowrapper {
+        height: 450px;
+        overflow:hidden;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .logos-carousel {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .fadein {
+        opacity: 1;
+        margin-top: 0;
+    }
+    
+    .objectives h2 {
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+    
+    .objectives {
+        margin-bottom: 32px;
+    }
+    
+    .solutiontotheproblem h2 {
+        top: 0;
+        margin-bottom: 16px
+    }
+    
+    .burger {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+    
+    .mmenu {
+        background:#171717;
+        padding: 16px;
+        border-radius: 6px;
+        width: 240px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        z-index: 99;
+        color: white;
+    }
+    
+    .mmenu a {
+        display: block;
+        margin: 0 0 12px 0;
+        width: 100%;
+    }
+    
+    .mmenu .btn-dapp-small {
+        margin-bottom: 0;
+        margin-top: 18px;
+    }
+    
+    .mmenu img {
+        display: inline-block;
+        position: relative;
+        top: 6px;
+        margin-right: 6px;
+    }
+    
+    #close-menu {
+        position: absolute;
+        top: 0;
+        right: -6px;
+        padding: 12px;
+    }
+    
+    footer {
+        opacity: 1 !important;
+    }
+    
+    .video-overlay {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0), #171717);
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .container-revolutionaryforce {
+        opacity: 1 !important;
+    }
+    
+    .futureplans h4 {
+        font-size: 17px
+    }
+        
+    .futureplans h2 {
+        margin: 32px auto 16px;
+    }
+    
+    .futureplans-left {
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 8px;
+        background-image: url("./img/mplanleft.png");
+        background-size: cover;
+    }
+    
+    .futureplans-right {
+        width: 100%;
+        font-size: 15px;
+        background-image: url("./img/mplanright.png");
+        background-size: cover;
+    }
+    
+    #roadmap .intro h1 {
+        margin-top: 96px
+    }
+     
+    #roadmap .intro {
+        margin-bottom: 0px;
+    }
+    
+    .map-step {
+        width: calc(50% - 9px);
+        margin: 3px;
+        
+    }
+    
+    .section-map {
+        padding: 0 6px;
+        width: 100%;    
+    }
+    
+    .map-step h4 {
+        left: 24px;
+        bottom: 20px;
+        font-size: 15px !important;
+        font-weight: 300;
+        line-height: 24px;
+        width: 70%;
+    }
+    
+    .weuseai-mobile {
+        background-image: url("./img/maibg.png");
+        background-size: cover;
+        padding-top: 250px;
+        margin-bottom: 12px;
+    }
+    
+    .weuseai-mobile h2 {
+        position: relative;
+        left: 0;
+        top: 0;
+        line-height: 32px;
+        width: 100%;
+    }
+    
+    .weuseai-mobile h4 {
+        margin: 24px 0;
+    }
+    
+    .intro h1 {
+        line-height: 36px;
+        font-size: 27px;
+    }
+    
+}
