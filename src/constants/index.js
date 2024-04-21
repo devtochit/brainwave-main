@@ -94,26 +94,26 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
+    title: "Inception and Development",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    date: "Phase 1",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
+    title: "Launch and Initial Adoption",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    date: "Phase 3",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
+    title: "Expansion and Optimization",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    date: "Phase 2",
     status: "done",
     imageUrl: roadmap3,
   },
@@ -121,7 +121,7 @@ export const roadmap = [
     id: "3",
     title: "Integration with APIs",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    date: "Phase 4",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -130,9 +130,8 @@ export const roadmap = [
 export const collabText =
   "Leverage easy and instant execution for effortless trading across chains. It's the ideal choice for traders seeking efficiency and precision in their transactions.";
 
-  export const collabText2 =
+export const collabText2 =
   "Unlock insights from multiple chains with ease. Chat with the bot to analyze market trends and make informed decisions quickly and conveniently.";
-
 
 export const collabContent = [
   {
@@ -207,14 +206,13 @@ export const collabApps = [
     width: 34,
     height: 36,
   },
-  
 ];
 
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "future",
+    description: "Inception and Development",
     price: "0",
     features: [
       "An AI chatbot that can understand your queries",
@@ -224,8 +222,8 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    title: "future",
+    description: "Launch and Initial Adoption",
     price: "9.99",
     features: [
       "An advanced AI chatbot that can understand complex queries",
@@ -235,8 +233,8 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "future",
+    description: "Expansion and Optimization",
     price: null,
     features: [
       "An AI chatbot that can understand your queries",
@@ -272,6 +270,7 @@ export const futurebenefits = [
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
+
   {
     id: "3",
     title: "Real-Time Market Alerts",
@@ -298,7 +297,6 @@ export const futurebenefits = [
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
- 
 ];
 export const benefits = [
   {
