@@ -270,6 +270,33 @@ export const futurebenefits = [
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
+
+  {
+    id: "3",
+    title: "Real-Time Market Alerts",
+    text: "Our bot constantly monitors the market, alerting all users when it identifies potential trends. Stay ahead of the curve with real-time notifications!",
+    backgroundUrl: "/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+  },
+ 
+  {
+    id: "4",
+    title: "Deploy Smart Contracts",
+    text: "With our bot, you can deploy smart contracts by simply typing your requirements. No coding needed!",
+    backgroundUrl: "/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+  },
+ 
+  {
+    id: "5",
+    title: "Extendable API for Projects",
+    text: "Our bot offers an extendable API that allows other projects to integrate and enhance their functionalities. Empower your project with our versatile API!",
+     backgroundUrl: "/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+  },
 ];
 export const benefits = [
   {
@@ -316,12 +343,13 @@ export const benefits = [
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Smart Context Analysis",
+    text: "Our bot excels at understanding context and piecing together diverse information, ensuring accurate and relevant responses even from fragmented queries.",
     backgroundUrl: "/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
+
 ];
 
 export const socials = [
