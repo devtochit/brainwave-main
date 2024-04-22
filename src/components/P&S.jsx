@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { service1, service2, service3 } from "../assets";
 
 const ProblemNDSolutions = () => {
   return (
@@ -7,7 +8,7 @@ const ProblemNDSolutions = () => {
       <div className="problemandsolution ">
         <div className="miningisfarfromideal section-narrow ">
           <div id="miningvideowrapper" className="">
-            <img src="/g.jpg" alt="" id="miningvideo"  className="h-[45rem]" />
+            <img src={service2} alt="" className="h-[45rem] w-[409px]" />
             {/* <video
               id="miningvideo"
               preload="true"
