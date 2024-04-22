@@ -5,10 +5,10 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
-import Services from "./components/Services";
+// import Services from "./components/Services";
 import ProblemNDSolutions from "./components/P&S";
 import ShapeTheFuture from "./components/shapeTheFuture";
-import Roadmap from "./components/roded";
+// import Roadmap from "./components/roded";
 import FutureFeatures from "./components/futureFeature";
 import RoadMap from "./components/RoadMap";
 
