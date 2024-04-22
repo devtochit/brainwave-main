@@ -10,7 +10,7 @@ import ProblemNDSolutions from "./components/P&S";
 import ShapeTheFuture from "./components/shapeTheFuture";
 // import Roadmap from "./components/roded";
 import FutureFeatures from "./components/futureFeature";
-import RoadMap from "./components/RoadMap";
+import Roadmap from "./components/Roadmap";
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
         <ShapeTheFuture />
         {/* <Roadmap /> */}
         <div className=" mt-15">
-          <RoadMap />
+          <Roadmap />
         </div>
         <Footer />
       </div>
