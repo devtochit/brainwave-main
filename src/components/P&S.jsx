@@ -7,7 +7,8 @@ const ProblemNDSolutions = () => {
       <div className="problemandsolution ">
         <div className="miningisfarfromideal section-narrow ">
           <div id="miningvideowrapper" className="">
-            <video
+            <img src="/g.jpg" alt="" id="miningvideo"  className="h-[45rem]" />
+            {/* <video
               id="miningvideo"
               preload="true"
               autoPlay="autoplay"
@@ -16,22 +17,28 @@ const ProblemNDSolutions = () => {
               playsInline
             >
               <source src="/img/mining.mp4" type="video/mp4" />
-            </video>
+            </video> */}
             <div className="video-overlay hidden-desktop "></div>
           </div>
 
           <div className="content z-50">
             <h1>
-            Cross-Chain Trading Often Involves{ ""}
-              <span className=" "> Unnecessary Complexity</span>  
+              Cross-Chain Trading Often Involves{""}
+              <span className=" "> Unnecessary Complexity</span>
             </h1>
 
             <p>
-            Trading across multiple chains often requires juggling multiple platforms and complex manual processes. Our bot simplifies this by providing a unified interface to trade and analyze market trends seamlessly.
+              Trading across multiple chains often requires juggling multiple
+              platforms and complex manual processes. Our bot simplifies this by
+              providing a unified interface to trade and analyze market trends
+              seamlessly.
             </p>
             <br />
             <p>
-              So many <b>opportunities are missed</b> when analyzing from disparate sources. Our bot centralizes all information in one spot, preventing losses and enabling you to seize every opportunity.
+              So many <b>opportunities are missed</b> when analyzing from
+              disparate sources. Our bot centralizes all information in one
+              spot, preventing losses and enabling you to seize every
+              opportunity.
             </p>
 
             {/* <a
@@ -47,8 +54,9 @@ const ProblemNDSolutions = () => {
         <div className="solutiontotheproblem section-narrow fadein">
           <h2>Kaitana Is the Solution to the Problem</h2>
           <p>
-            Our advanced AI enable you to efficiently analyze and purchase tokens across chains, helping businesses and individuals achieve their
-            financial goals sooner and far more efficiently.
+            Our advanced AI enable you to efficiently analyze and purchase
+            tokens across chains, helping businesses and individuals achieve
+            their financial goals sooner and far more efficiently.
           </p>
         </div>
 
