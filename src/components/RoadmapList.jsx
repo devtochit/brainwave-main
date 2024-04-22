@@ -2,7 +2,7 @@ import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 
-const PricingList = () => {
+const RoadmapList = () => {
   return (
     <div className="flex gap-[1rem] max-lg:flex-wrap">
       {pricing.map((item) => (
@@ -27,13 +27,13 @@ const PricingList = () => {
             )}
           </div> */}
 
-          <Button
+          {/* <Button
             className="w-full mb-6"
             href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
-          </Button>
+          </Button> */}
 
           <ul>
             {item.features.map((feature, index) => (
@@ -52,4 +52,4 @@ const PricingList = () => {
   );
 };
 
-export default PricingList;
+export default RoadmapList;

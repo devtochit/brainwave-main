@@ -8,9 +8,9 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import ProblemNDSolutions from "./components/P&S";
 import ShapeTheFuture from "./components/shapeTheFuture";
-import Roadmap from "./components/Roadmap";
+import Roadmap from "./components/roded";
 import FutureFeatures from "./components/futureFeature";
-import Pricing from "./components/Pricing";
+import RoadMap from "./components/RoadMap";
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
         <ShapeTheFuture />
         {/* <Roadmap /> */}
         <div className=" mt-15">
-          <Pricing />
+          <RoadMap />
         </div>
         <Footer />
       </div>
