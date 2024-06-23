@@ -24,8 +24,8 @@ const App = () => {
         <ProblemNDSolutions />
         <ShapeTheFuture />
         {/* <Roadmap /> */}
-        <div className=" mt-15">
-          <Roadmap />
+        <div className="mt-15">
+          <Roadmap  />
         </div>
         <Footer />
       </div>
