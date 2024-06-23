@@ -13,22 +13,15 @@ body {
   /* src: url('/fonts/Bartender.ttf') format('truetype'); */
   /* src: url('/fonts/Longline.ttf') format('truetype'); */
 }
-@font-face {
-  font-family: 'Bartender';
-  src: url('/fonts/Bartender.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Longline';
-  src: url('/fonts/Longline.ttf') format('truetype');
-  /* src: url('/fonts/Bartender.ttf') format('truetype'); */
-}
+
 @font-face {
   font-family: 'Poppins';
-  src: url('/fonts/Longline.ttf') format('truetype');
+  src: url('/fonts/Poppins.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Soraa';
-  src: url('/fonts/62139b54ebf6bef0600ed479_MBJ Chunky.ttf') format('truetype');
+  src: url('/fonts/62139baf11fad884e6ae9a78_gt-walsheim-bold-web.ttf')
+    format('truetype');
 }
 
 h1,
