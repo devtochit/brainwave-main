@@ -9,7 +9,7 @@ body {
 
 @font-face {
   font-family: 'Orbitron';
-  src: url('/fonts/Longline.ttf') format('truetype');
+  src: url('/fonts/go3v2.ttf') format('truetype');
   /* src: url('/fonts/Bartender.ttf') format('truetype'); */
   /* src: url('/fonts/Longline.ttf') format('truetype'); */
 }
@@ -28,12 +28,12 @@ body {
 }
 @font-face {
   font-family: 'Soraa';
-  src: url('/fonts/Bartender.ttf') format('truetype');
+  src: url('/fonts/RamadhanMubarok-Regular.otf') format('truetype');
 }
 
 h1,
 h2,
-h3 {
+h3 h5 {
   color: white;
   font-family: 'Orbitron';
   letter-spacing: 2px;
