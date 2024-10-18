@@ -13,9 +13,9 @@ const ShapeTheFuture = () => {
             <br />
             Across Multiple Chains
           </h2>
-          <a href="https://dapp.hashai.cc" target="_blank" className="btn-dapp">
+          <a href="https://t.me/FortunaAI_bot" target="_blank" className="btn-dapp">
             Launch our Bot
-            <img src="./img/dapplaunch.svg" />
+            {/* <img src="./img/dapplaunch.svg" /> */}
           </a>
         </div>
       </div>

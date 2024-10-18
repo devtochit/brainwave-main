@@ -49,7 +49,7 @@ const ProblemNDSolutions = () => {
             >
               Try Our DApp <img src="/img/dapplaunch.svg" />
             </a> */}
-            <Button className=" mt-10">Try Our Bot</Button>
+            <Button className=" mt-10" href="https://t.me/FortunaAI_bot">Try Our Bot</Button>
           </div>
         </div>
         <div className="solutiontotheproblem section-narrow fadein">

@@ -66,7 +66,7 @@ export const navigation = [
   {
     id: "5",
     title: "Launch Dapp",
-    url: "#login",
+    url: "https://t.me/FortunaAI_bot",
     onlyMobile: true,
   },
 ];

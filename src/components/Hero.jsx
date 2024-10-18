@@ -38,7 +38,7 @@ const Hero = () => {
             cutting-edge AI bot. Get Information, Analyze, Trade tokens through text, voice, and even screenshots.
           </p>
 
-          <Button href='/pricing' white>
+          <Button href="https://t.me/FortunaAI_bot" white>
             Launch Bot
           </Button>
         </div>
