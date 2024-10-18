@@ -35,11 +35,7 @@ const Hero = () => {
           </h1>
           <p className='body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8'>
             Experience the future of cryptocurrency trading with our
-            cutting-edge AI bot. Analyze historical data across chains to detect
-            emerging market trends and predict future market movements. Stay
-            ahead of the curve with real-time insights on top trending tokens
-            and make informed decisions with the ability to query any token
-            across major chains
+            cutting-edge AI bot. Get Information, Analyze, Trade tokens through text, voice, and even screenshots.
           </p>
 
           <Button href='/pricing' white>

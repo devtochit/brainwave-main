@@ -247,8 +247,8 @@ export const pricing = [
 export const futurebenefits = [
   {
     id: "0",
-    title: "Voice-Controlled Interaction",
-    text: "Communicate with the bot using voice commands for a hands-free, convenient experience. Effortlessly execute trades and queries with just your voice.",
+    title: "Type To Bridge",
+    text: "Communicate with the bot to bridge native tokens easily so you can effortlessly trade a token with another native token.",
     backgroundUrl: "/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -301,6 +301,32 @@ export const futurebenefits = [
 export const benefits = [
   {
     id: "0",
+    title: "Trade With Voice",
+    text: "Buy tokens by simply talking to the bot. Get Information and execute transactions with ease through natural language queries",
+    backgroundUrl: "/card-4.svg",
+    iconUrl: benefitIcon4,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "1",
+    title: "Type-to-Buy Tokens",
+    text: "Effortlessly buy tokens across chains by simply typing to the bot. Execute transactions with ease through natural language queries, making trading more accessible and user-friendly.",
+    backgroundUrl: "/card-5.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "2",
+    title: "Trade From Picture",
+    text: "Effortlessly buy tokens sending a picture or screenshot. Execute transactions with ease through pictures or screenshots from twitter, making trading more accessible and user-friendly.",
+    backgroundUrl: "/card-5.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  
+  {
+    id: "3",
     title: "AI-Powered Analysis",
     text: " Gain valuable insights with advanced AI algorithms that analyze historical data to detect popular market trends and predict market direction.",
     backgroundUrl: "/card-1.svg",
@@ -308,39 +334,15 @@ export const benefits = [
     imageUrl: benefitImage2,
   },
   {
-    id: "1",
-    title: "Top Trending Tokens",
-    text: "Stay on top of the market with live updates on the trending tokens across several chains like Solana, Ethereum, and BNB chains.",
-    backgroundUrl: "/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "2",
+    id: "4",
     title: "Cross-Chain Queries",
     text: "Seamlessly query any token on Solana, Ethereum, or BNB chains for in-depth information and data-driven decision-making.",
     backgroundUrl: "/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Type-to-Buy Tokens",
-    text: "Effortlessly buy tokens across chains by simply typing to the bot. Execute transactions with ease through natural language queries, making trading more accessible and user-friendly.",
-    backgroundUrl: "/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
+ 
+ 
   {
     id: "5",
     title: "Smart Context Analysis",
